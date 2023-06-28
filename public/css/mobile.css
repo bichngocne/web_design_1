@@ -1,15 +1,22 @@
 @media (max-width: 768px) {
     * {
-        font-weight: 500;
+        font-size: 15px;
     }
-
-   
+    .content {
+        font-size: 15px;
+    } 
 
     /* logo */
     .logo {
         width: unset;
     }
-
+    .content-title-1 {
+        font-size: 15px;
+    }
+    /* Ghi đè lên quy tắc * */
+    p{
+        font-size: 15px!important;
+    }
     /* About-Image-4 */
     .image-1 {
         width: unset;
@@ -110,8 +117,5 @@
         border: #6546BE solid 2px;
     }
    
-    *{
-        font-size: 15px;
-
-    }
+    
 }
