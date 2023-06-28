@@ -5,7 +5,9 @@
     .content {
         font-size: 15px;
     } 
-
+    b{
+        font-size: 30px;
+    }
     /* logo */
     .logo {
         width: unset;
