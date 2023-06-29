@@ -1,221 +1,354 @@
+body {
+    max-width: 600px;
+    margin: auto auto;
+}
+
+.container {
+    max-width: 520px;
+}
+
 /* navigation */
 .nav-item {
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 43px;
+    height: 24px;
 }
+
 /* logo */
 .logo {
-    width: 190px;
+    width: 130px;
+    height: 37px;
 }
+
 .navbar {
-    color: #fff;
-    border-bottom: #fff solid 2px;
+    color: #FFFFFF;
+    border-bottom: #FFFFFF solid 3px;
+    justify-content: center;
+    align-items: baseline;
 }
+
 .bg-header {
     background-image: url(https://bichngocne.github.io/web_design_1/public/images/Hero-Bg-2.png);
-    background-size: cover;
 }
-*{
+
+* {
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     box-sizing: border-box;
 }
-p{
-    font-size: 20px;
-}
+
 .nav-link {
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 600;
 }
-.content-title-1{
+
+.content-title-1 {
     font-size: 20px;
 }
+
 .content {
-    color: #fff;
+    color: #FFFFFF;
     font-size: 20px;
-    
-}   
-.content .title {
-    font-size: 50px;
+    width: 600px;
+    padding: 100px 40px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+
 }
 
-.content .context {
-    font-size: 30px;
+.content .h6 {
+    font-size: 36px;
+    font-weight: 700;
 }
 
-.button-get-started {
+.content .discription {
+    font-size: 16px;
+
+}
+
+.content div {
+    margin-top: 5px 0;
+}
+
+.button-xl {
     background-color: #ED990D;
-    padding: 13px 22px;
-    color: #fff;
+    width: 172px;
+    height: 53px;
+    padding: 14px 40px 14px 40px;
+    color: #FFFFFF;
     border: none;
+    font-weight: 600;
     margin: 10px 0px;
     border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
 }
+
 /* content */
 /* About-Image-4 */
-.image-1{
-    width: 398px;
-    height: 600px;
+.image-1 {
+    width: 250px;
+    height: 350px;
 }
+
 /* info */
-.info .text-info{
+.info {
+    width: 250px;
+    height: 307px;
+    margin-left: 10px;
+}   
+
+.info .button-text {
     color: #6546BE !important;
-    font-size: 30px;
-}
-.info .title-info{
-    color: #000 !important;
-    font-size: 50px;
-}
-.info .content-info{
-    color: #000 !important;
-    font-size: 25px;
-}
-.info .number{
-    color: #000 !important;
-    font-size: 60px;
+    font-size: 14px;
+    letter-spacing: .5px;
     font-weight: 600;
 }
-.info .button-about-us{
+
+.info .title-2{
+    color: #191919 !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+.discription{
+    font-size: 16px;
+}
+.info .discription {
+    color: #595959;
+}
+
+.info .h3 {
+    color: #191919 !important;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Lora';
+    font-style: italic;
+    line-height: 52px;
+}
+.info-title-1{
+    color: #191919 !important;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.info .button-m {
     background-color: #6546BE;
-    padding: 20px 60px;
-    color: #fff;
-    margin: 20px 0;
-}
-/* Service-2 */
-.text-development{
-    font-size: 30px;
+    padding: 12px 34px;
+    width: 142px;
+    height: 48px;
+    line-height:24px;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin: 10px 0;
     font-weight: 600;
+    border-radius: 3px;
 }
-.title-1-service-2{
-    font-size: 30px;
+
+/* Service-2 */
+
+.title-1-service-2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
     color: #ED990D;
-    font-weight: 500;
 }
-.title-2-service-2{
-    font-size: 40px;
-    color: #fff;
-    font-weight: 500;
+
+.title-2-service-2 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.title-3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.description-1{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
 }
 
 /* content-2 */
 /* blog-8 */
 /* Portfolio-2 */
-.service-image-1 img{
-    width: 500px;
-    height: 400px;
+.service-image-1 img {
+    border-radius: 4px;
 }
-.service-image-2 img{
-    width: 500px;
-    height: 600px;
-}
-.happy-client{
-    font-size: 26px;
+.happy-client {
     color: #6546BE !important;
-    font-weight: 500;
 }
-.some-lovely{
-    font-size: 36px;
-    color: #191919 ;
-    font-weight: 800;
+
+.some-lovely {
+    color: #191919;
 }
-.graphic-design{
+.graphic-design {
     font-weight: bold;
     font-size: 30px;
 
 }
-/* text blog-8 */
-.lorem-ipsum{
-    font-size: 24px;
+.blog-8 .blog .title-2{
+    font-size: 20px;
+    line-height: 30x;
+    color: #191919 ;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.blog-8 .blog .description-1{
     color: #595959;
+}
+/* text blog-8 */
+/* CTA */
 
+.call-To-Action-2 .section-title-1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    width: 300px;
 }
-.call-To-Action-2 {
-    display: flex;
-}
-.call-To-Action-2.content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+.call-To-Action-2 .button-xl{
+    padding: 10px 20px;
 }
 /* other-module-10 */
-.name{
+.title-2 {
     font-size: 20px;
     font-weight: 800;
 }
-.Other-Module-10 .col-md-6 div{
-    margin: 10px;
-    font-size: 30px;
-}
+
 /* team-Image */
-.team-Image img {
-    width: 500px;
-    height: 500px;
-}
-.team-context{
-    margin: 50px auto;
-}
+
 /* Testimonials-7*/
 .testimonials {
-    width: 500px;
-    height: 300px !important;
     padding: 20px;
     background-color: #F9F9F9;
     display: flex;
     height: 100%;
-    border-radius:6px ;
+    border-radius: 6px;
 }
-.emphasize{
-    font-size: 35px;
+.column-1-main .column-1{
+    width: 250px;
+    height: 166px !important;
 }
-.viewed{
+.column-1-main .column-2{
+    width: 250px;
+    height: 250px;
+}
+.column-2-main .column-1{
+    width: 250px;
+    padding-left: 10px;
+    height: 250px !important;
+}
+.column-2-main .column-2{
+    width: 250px;
+    height: 250px;
+}
+.testimonials-context .sub-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 10px;
+    
+}
+.testimonials-context .sub-title div{
+    margin: 0 10px;
+    display: inline-block;
+    
+}
+.title-3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+.testimonials-context .title-3{
+    color: #191919;
+}
+
+.info-title-1{
+    font-size: 34px !important;
+}
+.viewed {
     color: #595959;
     font-size: 24px;
 }
-.comment-text{
+
+.comment-text {
     color: #191919;
     font-size: 28px;
     font-weight: 600;
 }
-.viewed{
+
+.viewed {
     color: #595959;
     font-size: 20px;
 }
-/* Pricing-Table-3 */
-.pricing-table{
-    font-size: 25px;
+/* service-3 */
+/* blog-12 */
+.blog-12 .description-1{
+    color: #191919;
 }
-.pricing-table-3{
+/* Pricing-Table-3 */
+.pricing-table .description-1{
+    color: #191919;
+}
+.pricing-table-3 {
     margin: 50px auto;
     border-radius: 5px;
-    padding: 10px 0;
-    width: 400px;
-    height: 500px;
+    padding: 25px 0;
+    width: 250px;
+    height: 416px;
     border: #6546BE solid 2px;
 }
-.title{
-    font-weight: 600;
+
+.title {
+    font-weight: 700;
     font-size: 26px;
 }
-.context-pricing-table-1{
+
+.context-pricing-table-1 {
     font-weight: 600;
     font-size: 44px;
 
 }
-.context-pricing-table-1{
+.context-pricing-table{
+    padding: 8px 0;
+}
+.context-pricing-table-1 {
     font-weight: 600;
     font-size: 34px;
 
 }
-.button-pricing-table{
+
+.blog-12 .button-xl {
     background-color: #6546BE;
-    padding: 13px 25px;
-    color: #fff;
-    border: none;
-    margin: 10px 0px;
-    border-radius: 4px;
 }
-a{
+.Social-Icon img{
+    padding: 0 1px;
+}
+a {
     text-decoration: none;
+}
+.divider{
+    border-bottom: solid 3px #FFFFFF ;
+}
+@media screen and (max-width: 480px) {
+    div {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .row *{
+        width: unset;
+    }
+   
 }

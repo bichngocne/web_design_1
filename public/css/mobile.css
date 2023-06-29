@@ -8,6 +8,9 @@
     b{
         font-size: 30px;
     }
+    .nav-link {
+        font-size: 14px;
+    }
     /* logo */
     .logo {
         width: unset;
