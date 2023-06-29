@@ -121,3 +121,13 @@
    
     
 }
+@media screen and (max-width: 480px) {
+    div {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .row *{
+        width: unset;
+    }
+}
