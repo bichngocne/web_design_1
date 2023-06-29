@@ -5,8 +5,11 @@ body {
 
 .container {
     max-width: 520px;
+    
 }
-
+.no-padding{
+    padding: 0!important;
+}
 /* navigation */
 .nav-item {
     padding: 5px;
@@ -29,7 +32,10 @@ body {
 }
 
 .bg-header {
-    background-image: url(https://bichngocne.github.io/web_design_1/public/images/Hero-Bg-2.png);
+    background-image: url(/public/images/Hero-Bg-2.png);
+}
+.bg-hero{
+    background-image: url(/public/images/Hero-Bg-6.png);
 }
 
 * {
@@ -52,8 +58,7 @@ body {
 .content {
     color: #FFFFFF;
     font-size: 20px;
-    width: 600px;
-    padding: 100px 40px;
+    padding: 100px 0 !important;
     border-radius: 4px;
     letter-spacing: 1px;
 
@@ -236,6 +241,7 @@ body {
     height: 100%;
     border-radius: 6px;
 }
+
 .column-1-main .column-1{
     width: 250px;
     height: 166px !important;
