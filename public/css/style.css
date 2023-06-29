@@ -309,7 +309,9 @@ body {
     height: 416px;
     border: #6546BE solid 2px;
 }
-
+.pricing-table-3 .button-xl{
+    background-color: #6546BE;
+}
 .title {
     font-weight: 700;
     font-size: 26px;
