@@ -32,10 +32,10 @@ body {
 }
 
 .bg-header {
-    background-image: url(/public/images/Hero-Bg-2.png);
+    background-image: url(https://bichngocne.github.io/web_design_1/public/images/Hero-Bg-2.png);
 }
 .bg-hero{
-    background-image: url(/public/images/Hero-Bg-6.png);
+    background-image: url(https://bichngocne.github.io/web_design_1/public/images/Hero-Bg-6.png);
 }
 
 * {
